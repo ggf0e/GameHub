@@ -58,6 +58,16 @@
 			path = GameHubUITests;
 			sourceTree = "<group>";
 		};
+		83C35CF02D9869FE0060344D /* Dice */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Dice;
+			sourceTree = "<group>";
+		};
+		83C35CF32D986CA60060344D /* Magic8Ball */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Magic8Ball;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +98,8 @@
 		83C35CB32D9865970060344D = {
 			isa = PBXGroup;
 			children = (
+				83C35CF32D986CA60060344D /* Magic8Ball */,
+				83C35CF02D9869FE0060344D /* Dice */,
 				83C35CBE2D9865970060344D /* GameHub */,
 				83C35CD52D9865990060344D /* GameHubTests */,
 				83C35CDF2D9865990060344D /* GameHubUITests */,
@@ -122,6 +134,8 @@
 			);
 			fileSystemSynchronizedGroups = (
 				83C35CBE2D9865970060344D /* GameHub */,
+				83C35CF02D9869FE0060344D /* Dice */,
+				83C35CF32D986CA60060344D /* Magic8Ball */,
 			);
 			name = GameHub;
 			packageProductDependencies = (
@@ -289,6 +303,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4GN93Z5A4F;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GameHub/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -316,6 +331,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4GN93Z5A4F;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GameHub/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
